@@ -1,15 +1,17 @@
 import input from "./day1-array";
 
 let str = input;
-let sum = 0;
+let num = "0123456789";
 
-let firstNumber = str.match(/\d+/g);
+// let sum = 0;
 
-console.log(firstNumber);
+let matches = str.match(/\d+/g).map(Number);
 
 if (matches) {
   console.log(matches[0] + ", " + matches[1] + ", " + matches[2]);
 }
+
+console.log(matches);
 
 // for (let i = 0; i < myNums.length; i++) {
 //   sum += myNums[i];
