@@ -1,4 +1,4 @@
-export let input = [
+export let inputStrings = [
   "dqfournine5four2jmlqcgv",
   "7ggzdnjxndfive",
   "twofive4threenine",
@@ -1001,4 +1001,4 @@ export let input = [
   "ggrbl5cthnzlsbjssixpt",
 ];
 
-export default input;
+export default inputStrings;
